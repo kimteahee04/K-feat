@@ -1,0 +1,172 @@
+/*header-----------------------------------------*/
+* {
+  margin: 0px;
+  padding: 0px;
+}
+ul {
+  list-style: none;
+}
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+/*header-----------------------------------------*/
+header {
+  width: 100%;
+  margin: 0px auto;
+  background-color: #fff;
+  position: fixed;
+  z-index: 10;
+}
+header .on {
+  display: flex;
+  width: 1200px;
+  margin: 0px auto;
+  height: 65px;
+}
+header ul {
+  display: flex;
+
+  align-items: center;
+  height: 65px;
+  width: 1077px;
+  text-align: center;
+}
+
+header ul li {
+  /* border: 1px solid red; */
+  width: 1077px;
+  height: 100%;
+  line-height: 65px;
+}
+header img {
+  width: 50%;
+  display: flex;
+  margin: 0px auto;
+}
+header a {
+  /* border: 1px solid red; */
+  display: block;
+}
+/*------------------------visual---------------------*/
+.visual div {
+  background-image: url(../img/bg2.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+  width: 100%;
+  height: 70vh;
+  position: relative;
+}
+.visual div p {
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%);
+  color: #fff;
+  font-size: 39px;
+  text-align: center;
+}
+
+.section {
+  width: 100%;
+  margin: 0px auto;
+  text-align: center;
+  padding-top: 100px;
+}
+.section h3 {
+  text-align: center;
+
+  font-size: 32px;
+  line-height: 50px;
+}
+/*font color*/
+.section .color01 {
+  color: green;
+}
+.section .color02 {
+  color: rgb(210, 42, 216);
+}
+.section .color03 {
+  color: blue;
+}
+.section .color04 {
+  color: green;
+}
+.section .color05 {
+  color: rgb(210, 42, 216);
+}
+.section .color06 {
+  color: rgb(143, 33, 119);
+}
+.section .color07 {
+  color: rgb(21, 82, 139);
+}
+/*img01*/
+.section img {
+  width: 100%;
+  height: 80vh;
+  margin: 50px auto;
+}
+
+/*.container-------------------------------*/
+.container {
+  width: 100%;
+  text-align: center;
+  margin: 0px auto;
+}
+.container .section01 h3,
+.container .section02 h3 {
+  font-size: 34px;
+  line-height: 30px;
+  margin: 30px auto;
+}
+
+.container p {
+  font-size: 24px;
+  line-height: 50px;
+  margin: 0px auto;
+}
+.container ul {
+  display: flex;
+  width: 100%;
+  gap: 2rem;
+  justify-content: space-between;
+  padding: 5rem;
+  box-sizing: border-box;
+}
+
+.container ul img {
+  width: 100%;
+}
+.section01 .aki {
+  text-align: center;
+}
+.container img {
+  /* width: 100%;
+  height: 500px;
+  object-fit: cover; */
+}
+
+.section01 .aki img {
+  width: 50%;
+}
+/*section02----------------------------*/
+.section02 {
+  width: 100%;
+  margin: 0px auto;
+  text-align: center;
+}
+.section02 div {
+  line-height: 50px;
+}
+.section02 h3 {
+  font-size: 32px;
+  font-weight: bold;
+}
+.section02 div img {
+  width: 100%;
+  height: 100%;
+}

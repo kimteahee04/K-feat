@@ -1,0 +1,133 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+ul {
+  list-style: none;
+}
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+@media (min-width: 1220px) {
+  /* heaher */
+  header {
+    width: 100%;
+    margin: 0px auto;
+    background-color: #fff;
+    position: fixed;
+    z-index: 10;
+  }
+  header .on {
+    display: flex;
+    width: 1200px;
+    margin: 0px auto;
+    height: 65px;
+  }
+  header ul {
+    display: flex;
+
+    align-items: center;
+    height: 65px;
+    width: 1077px;
+    text-align: center;
+  }
+
+  header ul li {
+    /* border: 1px solid red; */
+    width: 1077px;
+    height: 100%;
+    line-height: 65px;
+  }
+  header img {
+    width: 50%;
+    display: flex;
+    margin: 0px auto;
+  }
+  header a {
+    /* border: 1px solid red; */
+    display: block;
+  }
+  /* visual */
+
+  #visual {
+    background-image: url(../img/visual1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+  }
+  #visual h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    /* color: #fff; */
+  }
+  /* con01 */
+  .add {
+    /* border: 1px solid red; */
+    display: flex;
+    margin: 30px auto;
+    width: 1200px;
+    gap: 0.8rem;
+    align-items: center;
+  }
+  .add .left img {
+    /* border: 1px solid red; */
+    display: block;
+    object-fit: cover;
+  }
+  /* con03 */
+  .con01 img {
+    width: 1200px;
+    height: 800px;
+    object-fit: cover;
+    margin: 20px auto;
+    display: flex;
+  }
+  .con01 .txt {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+  .con02 img {
+    width: 1200px;
+    height: 800px;
+    object-fit: cover;
+    margin: 20px auto;
+    display: flex;
+  }
+  .con02 .txt2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+  .con03 img {
+    width: 1200px;
+    height: 800px;
+    object-fit: cover;
+    margin: 20px auto;
+    display: flex;
+  }
+  .con03 .txt3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+  .con04 img {
+    width: 1200px;
+    height: 800px;
+    object-fit: cover;
+    margin: 20px auto;
+    display: flex;
+  }
+  .con04 .txt4 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+}
